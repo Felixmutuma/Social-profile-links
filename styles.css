@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.container{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2, p{
+    color: white;
+}
+h4{
+    color: green;
+}
+img{
+    border-radius: 50px;
+}
+.image{
+    background-color: #272323;
+    border-radius: 5%;
+    width: 400px;
+    text-align: center;
+    padding: 15px;
+}
+.image img{
+    border-radius: 100px;
+}
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #363434;
+    width: 200px;
+    height: 25px;
+    padding: 15px 50px;
+    margin: 10px ;
+    border-radius: 5px;
+}
